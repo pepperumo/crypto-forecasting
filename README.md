@@ -4,13 +4,13 @@ A modern, full-stack cryptocurrency price forecasting application powered by AI/
 
 ![Crypto Foresight Dashboard](https://img.shields.io/badge/Status-Complete-brightgreen) ![Python](https://img.shields.io/badge/Python-3.11+-blue) ![React](https://img.shields.io/badge/React-18+-blue) ![FastAPI](https://img.shields.io/badge/FastAPI-Latest-green)
 
-## � Application Preview
+##  Application Preview
 
 ![Crypto Foresight Dashboard](docs/screenshot.png)
 
 *Live Bitcoin price forecasting dashboard showing real-time data, 14-day predictions with confidence intervals, and comprehensive model performance metrics.*
 
-## �🚀 Features
+##  Features
 
 ### Core Features
 - **AI-Powered Forecasting**: Advanced ML models using Prophet and scikit-learn
