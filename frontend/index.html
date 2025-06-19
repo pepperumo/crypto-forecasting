@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/crypto-foresight-favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Modern cryptocurrency price forecasting with real-time updates and AI-powered predictions" />
+    <meta name="keywords" content="cryptocurrency, bitcoin, ethereum, price prediction, forecasting, blockchain" />
+    <meta name="author" content="Crypto Foresight" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://crypto-foresight.com/" />
+    <meta property="og:title" content="Crypto Foresight - AI-Powered Cryptocurrency Forecasting" />
+    <meta property="og:description" content="Get accurate cryptocurrency price predictions with real-time updates and advanced AI models" />
+    <meta property="og:image" content="/crypto-foresight-og.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://crypto-foresight.com/" />
+    <meta property="twitter:title" content="Crypto Foresight - AI-Powered Cryptocurrency Forecasting" />
+    <meta property="twitter:description" content="Get accurate cryptocurrency price predictions with real-time updates and advanced AI models" />
+    <meta property="twitter:image" content="/crypto-foresight-og.png" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <title>Crypto Foresight - AI-Powered Cryptocurrency Forecasting</title>
+    
+    <!-- Theme script (runs before body to prevent flash) -->
+    <script>
+      // Check for saved theme preference or default to dark mode
+      const theme = localStorage.getItem('theme') || 'dark';
+      document.documentElement.classList.toggle('dark', theme === 'dark');
+    </script>  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
